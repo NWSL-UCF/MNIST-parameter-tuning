@@ -98,4 +98,4 @@ These logs are helpful for visualizing trends and selecting the best-performing 
 
 ---
 
-[1] Beltrán, Enrique Tomás Martínez, et al. "Decentralized federated learning: Fundamentals, state of the art, frameworks, trends, and challenges." IEEE Communications Surveys & Tutorials 25.4 (2023): 2983-3013.
+[1]  Cohen, Gregory, et al. "EMNIST: Extending MNIST to handwritten letters." 2017 international joint conference on neural networks (IJCNN). IEEE, 2017.
