@@ -68,6 +68,7 @@ python main.py \
 This is especially useful when scaling across a **centralized job server**, where:
 - A **master node** handles task scheduling
 - Multiple **worker nodes** run `main.py` with assigned hyperparameter combinations
+- Running using multiple physical machines has been discussed in job-distributor repository. 
 
 ---
 
