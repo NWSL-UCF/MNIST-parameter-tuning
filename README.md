@@ -40,7 +40,7 @@ results/
     └── params.json
 ```
 
-This approach is feasible on a single machine but becomes time-consuming for large-scale sweeps. Multi-processing can help (e.g., using 16–32 processes for 16–32 physical cores), but hardware capacity limits scalability.
+This approach works on a single machine but becomes increasingly time-consuming for large-scale sweeps. While multi-processing (e.g., using 16–32 processes for 16–32 physical cores) can speed things up, you are still limited by your hardware’s capacity. For example, if your machine has 16 physical cores, running more than 16 parallel processes is not advisable. As a result, this method restricts you to running the entire experiment on a single machine, even if you have access to multiple machines that could help accelerate the task.
 
 ---
 
