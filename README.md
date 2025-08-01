@@ -26,7 +26,7 @@ This results in a total of **2,700 unique combinations**.
 
 This script:
 - Generates all possible hyperparameter combinations
-- Trains and evaluates the model for each combination
+- Trains and tests the model for each combination
 - Saves logs and metrics (loss, accuracy, training time) under the `results/` directory
 - Useful for running the entire sweep on a **single machine**
 
