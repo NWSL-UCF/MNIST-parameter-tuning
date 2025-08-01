@@ -1,4 +1,4 @@
-example/
+MNIST-parameter-tuning/
 ├── main_grid.py
 ├── main.py
 ├── data_loader.py
