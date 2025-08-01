@@ -20,7 +20,7 @@ This results in a total of **2,700 unique combinations**.
 
 ---
 
-## 🚀 Code Overview
+## Code Overview
 
 ### `main_grid.py` – Grid Search Runner (All-in-One Mode)
 
@@ -30,7 +30,7 @@ This script:
 - Saves logs and metrics (loss, accuracy, training time) under the `results/` directory
 - Useful for running the entire sweep on a **single machine**
 
-#### 📁 Example result structure for each combination:
+#### Example result structure for each combination:
 
 ```
 results/
@@ -40,7 +40,7 @@ results/
     └── params.json
 ```
 
-⚠️ This approach is feasible on a single machine but becomes time-consuming for large-scale sweeps. Multi-processing can help (e.g., using 16–32 processes for 16–32 physical cores), but hardware capacity limits scalability.
+This approach is feasible on a single machine but becomes time-consuming for large-scale sweeps. Multi-processing can help (e.g., using 16–32 processes for 16–32 physical cores), but hardware capacity limits scalability.
 
 ---
 
@@ -53,7 +53,7 @@ Each process is responsible for:
 - Evaluating test accuracy
 - Logging the result to a user-defined folder
 
-#### 📥 Example usage:
+#### Example usage:
 
 ```bash
 python main.py \
@@ -71,7 +71,7 @@ This is especially useful when scaling across a **centralized job server**, wher
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 MNIST-parameter-tuning/
@@ -85,7 +85,7 @@ MNIST-parameter-tuning/
 
 ---
 
-## 📊 Logs & Outputs
+## Logs & Outputs
 
 Each training run stores:
 
