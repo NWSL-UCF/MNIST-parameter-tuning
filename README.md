@@ -1,6 +1,6 @@
 # MNIST Parameter Tuning
 
-This repository explores **hyperparameter tuning** for a **digit classification model** using the **MNIST dataset** (Modified National Institute of Standards and Technology). MNIST is a benchmark dataset composed of 70,000 handwritten digit images (60,000 for training and 10,000 for testing), commonly used in evaluating computer vision models.
+This repository explores **hyperparameter tuning** for a **digit classification model** using the **MNIST dataset** (Modified National Institute of Standards and Technology) [1]. MNIST is a benchmark dataset composed of 70,000 handwritten digit images (60,000 for training and 10,000 for testing), commonly used in evaluating computer vision models.
 
 The goal is to systematically evaluate how different model configurations affect training performance and accuracy.
 
@@ -97,3 +97,5 @@ Each training run stores:
 These logs are helpful for visualizing trends and selecting the best-performing hyperparameter set.
 
 ---
+
+[1] Beltrán, Enrique Tomás Martínez, et al. "Decentralized federated learning: Fundamentals, state of the art, frameworks, trends, and challenges." IEEE Communications Surveys & Tutorials 25.4 (2023): 2983-3013.
