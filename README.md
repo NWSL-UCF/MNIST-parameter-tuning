@@ -6,7 +6,7 @@ The goal is to systematically evaluate how different model configurations affect
 
 ---
 
-## 🔧 Hyperparameters Tuned
+## Hyperparameters Tuned
 
 We tune the following hyperparameters:
 
